@@ -12,6 +12,8 @@ En este proyecto se realizó un Backend basado en la arquitectura de microservic
 
 Las tecnologías que se utilizaron fueron Express para la creacion y enrutado de la app, MongoDB para el almacenamieto de datos, Docker para la creacion de contenedores e imagenes, Docker-compose para comunicar los contenedores creados y GoogleCloud para el despliegue de la API mediante la creación y utilización de una Maquina Virtual (VM).
 
+Base URL: http://34.16.167.203:8000 
+
 **Nota importante:** Una vez clonado el repositorio es necesario que antes de correrlo en la maquina virtual se creen los archivos .env correspondientes para los microservicios siguientes: 
 - Para Characters, Films y Planets: URL_"Microservicio"_CONNECTION="http://database:"PuertoDelaBaseDeDatos"/(Character, Film, Planet).
 - Para Database: DB_URL="url de la base de datos en MongoDB".
