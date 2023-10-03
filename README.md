@@ -14,6 +14,26 @@ Las tecnologías que se utilizaron fueron Express para la creacion y enrutado de
 
 Base URL: http://34.16.167.203:8000 
 
+### Endpoints 
+
+#### **Characters**
+- GET /characters
+- GET / characters/id
+- POST /characters
+- DELETE /characters/id
+
+#### **Films**
+- GET /films
+- GET / films/id
+- POST /films
+- DELETE /films/id
+
+#### **Planets**
+- GET /planets
+- GET / planets/id
+- POST /planets
+- DELETE /planets/id
+
 **Nota importante:** Una vez clonado el repositorio es necesario que antes de correrlo en la maquina virtual se creen los archivos .env correspondientes para los microservicios siguientes: 
 - Para Characters, Films y Planets: URL_"Microservicio"_CONNECTION="http://database:"PuertoDelaBaseDeDatos"/(Character, Film, Planet).
 - Para Database: DB_URL="url de la base de datos en MongoDB".
